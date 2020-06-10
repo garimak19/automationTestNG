@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity_Suite" duration-ms="5104" started-at="2020-06-10T22:36:48Z" finished-at="2020-06-10T22:36:53Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_Home_Group.TC_Home_01()[pri:0, instance:automationTestNG.TC_Home_Group@91161c7]" name="TC_Home_01" class="automationTestNG.TC_Home_Group"/>
+        <method signature="TC_login_Group.TC_Login_03()[pri:0, instance:automationTestNG.TC_login_Group@402a079c]" name="TC_Login_03" class="automationTestNG.TC_login_Group"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_login_Group.TC_Login_02()[pri:0, instance:automationTestNG.TC_login_Group@402a079c]" name="TC_Login_02" class="automationTestNG.TC_login_Group"/>
+        <method signature="TC_login_Group.TC_Login_03()[pri:0, instance:automationTestNG.TC_login_Group@402a079c]" name="TC_Login_03" class="automationTestNG.TC_login_Group"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Home_Test" duration-ms="40" started-at="2020-06-10T22:36:48Z" finished-at="2020-06-10T22:36:48Z">
+      <class name="automationTestNG.TC_Home_Group">
+        <test-method status="PASS" signature="TC_Home_01()[pri:0, instance:automationTestNG.TC_Home_Group@91161c7]" name="TC_Home_01" duration-ms="12" started-at="2020-06-10T22:36:48Z" finished-at="2020-06-10T22:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Home_01 -->
+      </class> <!-- automationTestNG.TC_Home_Group -->
+    </test> <!-- Home_Test -->
+    <test name="Login_Test" duration-ms="9" started-at="2020-06-10T22:36:53Z" finished-at="2020-06-10T22:36:53Z">
+      <class name="automationTestNG.TC_login_Group">
+        <test-method status="PASS" signature="TC_Login_02()[pri:0, instance:automationTestNG.TC_login_Group@402a079c]" name="TC_Login_02" duration-ms="3" started-at="2020-06-10T22:36:53Z" finished-at="2020-06-10T22:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_02 -->
+        <test-method status="PASS" signature="TC_Login_03()[pri:0, instance:automationTestNG.TC_login_Group@402a079c]" name="TC_Login_03" duration-ms="2" started-at="2020-06-10T22:36:53Z" finished-at="2020-06-10T22:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_03 -->
+      </class> <!-- automationTestNG.TC_login_Group -->
+    </test> <!-- Login_Test -->
+  </suite> <!-- Sanity_Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite">
+  <test thread-count="5" name="Home_Test">
+    <classes>
+      <class name="automationTestNG.TC_Home"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Login_Test">
+    <classes>
+     
+      <class name="automationTestNG.TC_login">
+      <methods>
+      <include name="Login_01"/>
+      <exclude name="Login_03"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
